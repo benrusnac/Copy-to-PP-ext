@@ -1,0 +1,116 @@
+#copy-btn{
+  background-image: linear-gradient(-120deg,#FED100 0%,#FF624C 100%)!important;
+  color: black;
+  margin-top: 25px;
+  padding: 25px 100px 25px 100px;
+  width: 100%;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 18px;
+  border-radius: 20px;
+
+
+}
+#copy-btn:hover{
+
+  background-image: linear-gradient(-120deg,#fc327c 0%,#30a2ff 100%)!important;
+
+}
+
+a{
+  text-align: center;
+  font-size: .8rem
+  color: black;
+  width: 100%;
+  text-decoration: underline;
+}
+
+.tcext{
+
+  text-align: center;
+
+}
+
+.coffee{
+  margin-top: 25px;
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+.coffee h1, p{
+  color: black;
+}
+.coffee h1{
+  margin-bottom: 1px;
+}
+
+.extcont{
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  min-width: 340px
+}
+
+.close{
+  text-decoration: underline;
+  position: relative;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.close a{
+  font-size: 16px;
+
+}
+
+.confirm{
+  display: none;
+  border-radius: 20px;
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(242, 242, 242,.75);;
+}
+
+.side{
+  padding-top: 15px;
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  display: block;
+  clear: both;
+}
+.side p{
+  margin: 0;
+}
+.sideSec{
+  width: 50%;
+  margin: auto;
+  float: left;
+
+
+}
+
+.past{
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.past h1{
+  margin: 0;
+  color: black;
+}
+
+.past :hover{
+  text-decoration: underline;
+
+}
